@@ -1,0 +1,65 @@
+.headingH{
+    background-color:#11e2e2;
+    font-size:1.7rem;
+    border-radius:10px;
+    border:4px solid black;
+    text-align:center;
+    padding:5px;
+    box-shadow:5px 5px 5px red;
+}
+img{
+    width:300px;
+    height:300px;
+}
+p::first-line{
+    color:red;
+
+}
+p:hover{
+    background-color:crimson;
+}
+h1::first-letter{
+    color: green;
+}
+
+h2::first-letter{
+    color:yellow;
+}
+h2::before{
+    content:"🌻";
+}
+h2::after{
+    content:"🌻";
+}
+ol li::marker{
+    content:"🤫";
+}
+p::selection{
+    background-color:green;
+    color:white;
+}
+ol li::marker{
+    content:💮;
+}
+a{
+    font-size:1.7rem;
+    text-decoration:none;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:chartreuse;
+}
+a:hover{
+    background-color:yellow;
+    color:white;
+}
+
+body{
+    background-color: palevioletred;
+}
+img:hover{
+    filter: invert(100%);
+
+}
